@@ -3,7 +3,7 @@
     local lp = ps.LocalPlayer
     local rs = game:GetService("RunService")
 
-    _G.ESP_ENABLED = false 
+    _G.ESP_ENABLED = Value 
 
     local function ftool(cr)
         for _, b in ipairs(cr:GetChildren()) do 
